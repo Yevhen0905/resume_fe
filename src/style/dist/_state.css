@@ -1,0 +1,8 @@
+.contact_link:hover {
+  color: #eba58e;
+}
+
+.project_list_item:hover {
+  color: #eba58e;
+  transform: scale(1.02);
+}

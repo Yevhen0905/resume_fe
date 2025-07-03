@@ -1,0 +1,51 @@
+body {
+  background-color: #dddad7;
+}
+
+.hero {
+  width: 100%;
+  max-width: 1050px;
+  margin: 50px auto;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.sidebar {
+  max-width: 360px;
+  width: 100%;
+  padding: 30px 20px;
+  background-color: #345283;
+  color: #fff;
+}
+
+.section_content {
+  max-width: 840px;
+  width: 100%;
+  padding: 40px 20px 32px;
+  color: #3a3535;
+}
+
+.title {
+  border-bottom: 3px solid;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  line-height: 32px;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: capitalize;
+  letter-spacing: 0.05em;
+}
+
+.icon {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.sidebar_name,
+.sidebar_specialty {
+  display: none;
+}
