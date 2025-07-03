@@ -99,8 +99,13 @@
   margin-bottom: 9px;
 }
 
+.title_experience_item {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
 .list_years {
-  margin-top: 6px;
   display: block;
   color: #a09999;
   font-size: 14px;

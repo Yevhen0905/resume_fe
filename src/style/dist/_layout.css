@@ -16,6 +16,7 @@ body {
 .main {
   display: flex;
   justify-content: space-between;
+  flex-direction: row-reverse;
   padding: 0 15px;
 }
 
@@ -30,6 +31,7 @@ body {
   width: 100%;
   padding: 20px 20px 25px;
   color: #3a3535;
+  border-right: 1px dashed;
 }
 
 .title {
