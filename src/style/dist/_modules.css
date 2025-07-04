@@ -120,6 +120,12 @@
   font-weight: 600;
 }
 
+.list_item_title {
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 600;
+}
+
 .list_position {
   color: #0a0a0a;
   font-size: 14px;
