@@ -102,12 +102,13 @@
 .title_experience_item {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: 10px;
+  color: #3838ea;
 }
 
 .list_years {
   display: block;
-  color: #a09999;
   font-size: 14px;
   line-height: 17px;
   font-weight: 600;
@@ -127,7 +128,6 @@
 }
 
 .list_position {
-  color: #0a0a0a;
   font-size: 14px;
   font-style: italic;
 }
