@@ -184,3 +184,16 @@
   font-weight: 700;
   color: #b02323;
 }
+
+.list_technologies {
+  margin: 0 0 0 27px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #5b5757;
+}
+
+.project_theme {
+  font-weight: 400;
+  color: #5b5757;
+  font-size: 15px;
+}
