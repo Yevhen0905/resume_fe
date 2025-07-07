@@ -15,6 +15,7 @@
 
   .title_experience_item {
     flex-direction: column;
+    align-items: start;
     gap: 5px;
   }
 }
@@ -94,19 +95,20 @@ html {
     line-height: 14px;
   }
 }
-@media screen and (max-width: 612px) {
+@media screen and (max-width: 670px) {
   .main {
     flex-wrap: wrap;
     padding: 0;
   }
 
+  .sidebar {
+    max-width: none;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 612px) {
   .header {
     padding: 20px 10px;
-  }
-
-  .sidebar {
-    max-width: 612px;
-    width: 100%;
   }
 
   .sidebar_name,
